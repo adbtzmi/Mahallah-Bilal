@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-
 html{
   scroll-behavior: smooth;
 }
@@ -14,6 +13,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
 
 /*style for header*/
 header {
@@ -93,7 +93,14 @@ header nav ul li a:hover {
     color: #ffffff;
   }
 }
+/*end style for header*/
 
+
+/*style for main section*/
+
+
+
+/*end style for main section*/
 
 
 /*style for footer*/
@@ -197,6 +204,7 @@ ul {
     margin-bottom: 40px;
   }
 }
+/*end style for footer*/
 
 
 /*style for go top button*/
@@ -222,3 +230,4 @@ ul {
   place-items: center;
   color: #001a2e;
 }
+/*end style for go top bottom*/
