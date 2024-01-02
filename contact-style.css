@@ -346,8 +346,21 @@ ul {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.footer-col .email{
+
+.email-footer-container{
+  display: flex;
+  align-items: center; 
+}
+.email-footer-container #email-input{
   padding: 10px;
+  flex: 1; 
+}
+.email-footer-container #email-submit {
+  background: none;
+  color: #fff; 
+  border: none; 
+  padding: 10px 15px 20px 10px; 
+  cursor: pointer; 
 }
 
 @media (max-width: 767px) {
