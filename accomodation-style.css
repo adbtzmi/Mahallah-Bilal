@@ -98,7 +98,14 @@ header nav ul li a:hover {
 
 /*style for main section*/
 
-
+.room-container{
+  height: 500px;
+}
+.room-container h1 {
+  text-align: center;
+  margin-top: 8%;
+  text-shadow: 2px 2px 4px #56565682;
+}
 
 /*end style for main section*/
 
