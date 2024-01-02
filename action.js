@@ -22,5 +22,5 @@ window.onload = calcScrollValue;
 document.getElementById("email-submit").addEventListener("click", function() { 
   // Perform the desired action when the button is clicked 
   var inputValue = document.getElementById("email-input").value; 
-  alert("You typed: " + inputValue); 
+  alert("You have submit your email. Thankyou!"); 
 }); 
