@@ -362,6 +362,12 @@ ul {
   margin-bottom: 25px;
   font-weight: 500;
 }
+.footer-col p{
+  color: white;
+  margin-bottom: 60px;
+  font-size: 16px;
+  color: #bbb;
+}
 .footer-col h4::before {
   content: "";
   position: absolute;
@@ -428,7 +434,7 @@ ul {
   background: none;
   color: var(--white); 
   border: none; 
-  padding: 20px 15px 20px 10px; 
+  padding: 15px 15px 25px 10px; 
   cursor: pointer; 
 }
 
@@ -450,6 +456,7 @@ ul {
     margin-bottom: 40px;
   }
 }
+/*end style for footer*/
 
 
 /*style for go top button*/
@@ -475,7 +482,6 @@ ul {
   place-items: center;
   color: #001a2e;
 }
-
 
 /*Style for Chat Box*/
 .chatbot-toggler {

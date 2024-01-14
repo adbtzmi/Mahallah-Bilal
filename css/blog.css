@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color1: #24262b;
+  --color2: #acacac;
+  --color3: #EDF2F4;
+  --color4: #26532b;
+  --color5: #399e5a;
+  --color6: #383b43;
+  --shadow: #56565682;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  background-color: #e7e7e7;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*style for header*/
+header-special {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color1);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+header-special .logo {
+  color: var(--color3);
+  font-size: 25px;
+  text-decoration: none;
+}
+header-special .logo:hover {
+  color: var(--color2);
+
+}
+header-special nav-special ul-special {
+  display: flex;
+}
+header-special nav-special ul-special li-special a {
+  display: inline-block;
+  color: var(--color3);
+  padding: 5px 0;
+  margin: 0 10px;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+  text-decoration: none;
+}
+header-special nav-special ul-special li-special a:hover {
+  border-bottom-color: var(--color5);
+}
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  margin: 5px 0;
+  background: var(--color3);
+}
+
+@media only screen and (max-width: 900px) {
+  header-special {
+    padding: 0 30px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+  header-special nav-special {
+    position: absolute;
+    width: 100%;
+    right: -100%;
+    top: 70px;
+    width: 100%;
+    background: var(--color1);
+    padding: 30px;
+    transition: 0.3s;
+  }
+  header-special #nav_check:checked ~ nav-special {
+    right: 0;
+  }
+  header-special nav-special ul-special {
+    display: block;
+  }
+  header-special nav-special ul-special li-special a {
+    margin: 5px 0;
+    color: var(--color3);
+  }
+}
+/*end style for header*/
+
+
+  /*style for main*/
+  .main-section h1 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-shadow: 2px 2px 4px #56565682;
+  }
+.main-section{
+    height: auto;
+    background-color: white;
+}
+.container{
+  text-align: center;
+  align-items: center;
+  margin: 2.5% 25% 5% 25%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .slideshow{
+  text-align: center;
+  margin: 20px;
+}
+.container .mrc{
+  align-items: center ;
+  margin: 20px;
+}
+.container .tour{
+  margin: 20px;
+  align-items: center;
+}
+
+/*style for footer*/
+.container-footer {
+  max-width: 1100px;
+  margin: auto;
+}
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.2fr;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: var(--color1);
+  padding: 50px 0;
+}
+.footer-col {
+  padding: 0 25px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: var(--white);
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--color2);
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: var(--white);
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: var(--white);
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: var(--color1);
+  background-color: var(--white);
+}
+.email {
+  color: var(--white);
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.267);
+  border: none;
+}
+.footer-col ::placeholder {
+  color: var(--white);
+  text-align: center;
+}
+
+.email-footer-container{
+  display: flex;
+  align-items: center; 
+}
+.email-footer-container #email-input{
+  padding: 10px;
+  flex: 1; 
+}
+.email-footer-container #email-submit {
+  background: none;
+  color: var(--white); 
+  border: none; 
+  padding: 20px 15px 20px 10px; 
+  cursor: pointer; 
+}
+
+@media (max-width: 767px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-col {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 574px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer-col {
+    margin-bottom: 40px;
+  }
+}
+/*end style for footer*/
+
+
+/*style for go top button*/
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 12px);
+  width: calc(100% - 12px);
+  background-color: var(--white);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #001a2e;
+}
+/*end style for go top bottom*/

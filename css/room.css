@@ -210,14 +210,14 @@ span.text {
   background-color: var(--color3);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
-  margin: 2.5% 10% 10% 10%;
+  margin: 2% 10% 10% 10%;
 }
 
 
 
 .slider-container {
   display: flex;
-  margin: 2.5% 10% 5% 10%;
+  margin: 2% 10% 5% 10%;
 }
 
 .card-content {
@@ -289,7 +289,7 @@ p {
   background-color: var(--color3);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
-  margin: 2.5% 15% 10% 15%;
+  margin: 2% 15% 10% 15%;
 }
 
 /*
