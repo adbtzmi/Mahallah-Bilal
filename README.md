@@ -20,14 +20,6 @@ Contributors names and contact info
 3. Muhammad Zaid bin Mohd Riduan 
 4. Ahmad Irfan Nabihan bin Shukri 
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
 ## License
 
 This project is licensed under the Mahallah Bilal License
