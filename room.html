@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Asset/accomodation-style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="favicon/apple-touch-icon.png" />
+  </head>
+  <body>
+    <header>
+      <a href="" class="logo">Mahallah Bilal</a>
+      <input type="checkbox" id="nav_check" hidden />
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="about-us-page.html">About Us</a></li>
+          <li><a href="room.html">Room</a></li>
+          <li><a href="">Blog/News</a></li>
+          <li><a href="contact-page.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+    </header>
+
+    <main class="main-section">
+      <div class="room-container" style="height: auto">
+        <h1>Room</h1>
+        <p style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="wrapper">
+          <div class="container">
+            <i class="fa-solid fa-building"></i>
+            <span class="counter" data-target="8">0</span>
+            <span class="text">Blocks</span>
+          </div>
+          <div class="container">
+            <i class="fa-solid fa-bed"></i>
+            <span class="counter" data-target="450">0</span>
+            <span class="text">Rooms</span>
+          </div>
+          <div class="container">
+            <i class="fa-solid fa-users"></i>
+            <span class="counter" data-target="1028">0</span>
+            <span class="text">Students</span>
+          </div>
+          <div class="container">
+            <i class="fa-solid fa-users-gear"></i>
+            <span class="counter" data-target="20">0</span>
+            <span class="text">Staffs</span>
+          </div>
+        </div>
+
+        <div class="room-type">
+          <h2>Our Rooms</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="slider-container">
+            <div class="card-content">
+              <div class="card">
+                <div class="card-img">
+                  <img src="image/hostel.png" alt="" />
+                </div>
+                <div class="card-text">
+                  <h2>Quad Room</h2>
+                  <p>
+                    I show you how to make a card group easily and very
+                    functional with the use of flexbox and its magic and
+                    JavaScript.
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img">
+                  <img src="image/hostel-1024x720-1.jpg" alt="" />
+                </div>
+                <div class="card-text">
+                  <h2>Twin Sharing</h2>
+                  <p>
+                    I show you how to make a card group easily and very
+                    functional with the use of flexbox and its magic and
+                    JavaScript.
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-img">
+                  <img src="image/hostel.png" alt="" />
+                </div>
+                <div class="card-text">
+                  <h2>Single Room</h2>
+                  <p>
+                    I show you how to make a card group easily and very
+                    functional with the use of flexbox and its magic and
+                    JavaScript.
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-type">
+          <h2>Book a Room</h2>
+          <p>This information will let us know more about you.</p>      
+            <div class="container-room-form">
+              <ul class="container__list">
+                <li class="container__item container__item_active">
+                  <span class="container__link">ACCOUNT</span>
+                </li>
+                <li class="container__item">
+                  <span class="container__link">ROOM TYPE</span>
+                </li>
+                <li class="container__item">
+                  <span class="container__link">DETAILS</span>
+                </li>
+              </ul>
+              <div class="container__inner">
+                <h2 class="content__subtitle">Let's start with basic details</h2>
+                <form class="account-info-room">
+                  <div class="account-info-left">
+                    <input type="text" placeholder="Fullname">
+                    <input type="text" placeholder="Matric No.">
+                  </div>
+                  <div class="account-info-right">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Phone Number">
+                  </div>
+                </form>
+                <button class="next-btn">Next</button>
+              </div>
+              <div class="container__inner container__inner_hidden">
+                <h2 class="content__subtitle">What type of room would you want?</h2>
+                <p class="content__description">
+                  The HyperText Markup Language, or HTML(HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+                </p>
+                <button class="next-btn">Next</button>
+                <button class="prev-btn">Previous</button>
+              </div>
+              <div class="container__inner container__inner_hidden">
+                <h2 class="content__subtitle">Fill out the details below</h2>
+                <p class="content__description">
+                  Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+                </p>
+                <button class="prev-btn">Previous</button>
+                <button class="submit-btn">Submit</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!--end of room container-->
+    </main>
+
+    <div id="progress">
+      <i id="progress-value" class="fa fa-arrow-up"></i>
+    </div>
+
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Mahallah Bilal</h4>
+            <p
+              style="
+                color: white;
+                margin-bottom: 60px;
+                font-size: 16px;
+                color: #bbb;
+              "
+            >
+              Copyright @2023 Mahallah Bilal
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Site Map</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="about-us-page.html">About us</a></li>
+              <li><a href="room.html">Room</a></li>
+              <li><a href="#">Blog / News</a></li>
+              <li><a href="contact-page.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Stay up to date</h4>
+            <form class="email-footer-container">
+              <input
+                class="email"
+                id="email-input"
+                type="email"
+                placeholder="Your email address"
+              />
+              <button type="submit" id="email-submit">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--end of footer container-->
+    </footer>
+    <script src="room.js"></script>
+  </body>
+</html>
