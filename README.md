@@ -37,7 +37,8 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-1. MUHAMMAD ADIB
+1. MUHAMMAD ADIB (2216265)
+2. MUHAMMAD AMIR (1234567)
 
 ## Version History
 
