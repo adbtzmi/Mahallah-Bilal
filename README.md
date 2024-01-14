@@ -2,43 +2,23 @@
 
 A simple website for Mahallah Bilal.
 
-## Description
+## Project Description
 
-An in-depth paragraph about your project and overview of use.
+This project comes with an idea to revolutionize the Mahallah Bilal experience by introducing a dynamic and user-friendly website.
 
-## Getting Started
+Mahallah Bilal is not merely a place of accommodation; it is a community
 
-### Dependencies
+The website's intuitive design aims to streamline administrative processes, ensuring a smoother and more efficient experience for all occupants.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
 Contributors names and contact info
 
-1. MUHAMMAD ADIB (2216265)
-2. MUHAMMAD AMIR (1234567)
+1. Muhammad Adib bin Mohamad Tazmi
+2. Muhammad Amir Syahmi bin Rohmat Rose
+3. Muhammad Zaid bin Mohd Riduan 
+4. Ahmad Irfan Nabihan bin Shukri 
 
 ## Version History
 
@@ -50,7 +30,7 @@ Contributors names and contact info
 
 ## License
 
-This project is licensed under the Mahallah Bilal License - see the LICENSE.md file for details
+This project is licensed under the Mahallah Bilal License
 
 ## Acknowledgments
 
