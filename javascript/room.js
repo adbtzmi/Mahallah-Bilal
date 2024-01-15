@@ -1,3 +1,20 @@
+// You can use JavaScript to toggle the visibility of the navigation menu for mobile and tablet sizes
+const checkbox = document.getElementById("nav_check");
+const nav = document.querySelector("nav");
+
+checkbox.addEventListener("change", () => {
+  if (checkbox.checked) {
+    nav.classList.add("active");
+  } else {
+    nav.classList.remove("active");
+  }
+});
+
+
+
+
+
+
 const counters = document.querySelectorAll('.counter');
 
 counters.forEach(counter => {
@@ -53,24 +70,47 @@ document.getElementById("email-submit").addEventListener("click", function() {
 
 let tabContent = document.querySelectorAll(".container__inner");
 let tabItem = document.querySelectorAll(".container__item");
+let currentTab = 0;
 
-// For each element with class 'container__item'
+function showTab(tabIndex) {
+  // Add 'container__inner_hidden' to all containers
+  tabContent.forEach((item) => {
+    item.classList.add("container__inner_hidden");
+  });
+  // Remove 'container__item_active' from all links
+  tabItem.forEach((item) => {
+    item.classList.remove("container__item_active");
+  });
+  // Show the correct tab content and add 'container__item_active' class
+  tabContent[tabIndex].classList.remove("container__inner_hidden");
+  tabItem[tabIndex].classList.add("container__item_active");
+  // Update the current tab index
+  currentTab = tabIndex;
+}
+
+// Event listener for next button
+document.querySelector(".next-btn").addEventListener("click", () => {
+  if (currentTab < tabItem.length - 1) {
+    showTab(currentTab + 1);
+  }
+});
+
+// Event listener for prev button
+document.querySelector(".prev-btn").addEventListener("click", () => {
+  if (currentTab > 0) {
+    showTab(currentTab - 1);
+  }
+});
+
+// Event listeners for individual tabs
 for (let i = 0; i < tabItem.length; i++) {
-  // if the element was hovered
-  //you can replace mouseover with click
   tabItem[i].addEventListener("click", () => {
-    // Add to all containers class 'container__inner_hidden'
-    tabContent.forEach((item) => {
-      item.classList.add("container__inner_hidden");
-    });
-    // Clean all links from class 'container__item_active'
-    tabItem.forEach((item) => {
-      item.classList.remove("container__item_active");
-    });
-    // Make visible correct tab content and add class to item
-    tabContent[i].classList.remove("container__inner_hidden");
-    tabItem[i].classList.add("container__item_active");
+    showTab(i);
   });
 }
+
+
+
+
 
 

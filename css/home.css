@@ -2,6 +2,7 @@
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
+  background-color: var(--color3);
 }
 
 *{
@@ -27,7 +28,7 @@ body{
   font-family: 'Bebas Neue';
   padding-bottom: 50px;
   text-align: center;
-  background-color:  rgb(64,84,92);
+  background-color: var(--color3);
   display: flex;   
   flex-direction: column;
 }
@@ -36,10 +37,10 @@ body{
   position: absolute;
   top: 5%; 
   right: 5%; 
-  background-color: #24262b;
+  background-color: var(--color1);
   padding:  20px;
   border-radius: 10px;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .overlay-box h2 {
@@ -60,13 +61,13 @@ body{
 }
 
 .sub-box {
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: var(--color2);
   padding: 10px;
   border-radius: 5px;
 }
 
 .sub-box:hover {
-  background-color: #bbb; 
+  background-color: var(--color1); 
   transform: translateY(-5px); 
   box-shadow: 0 0 10px rgba(255, 255, 255, 1); 
 }
@@ -77,14 +78,11 @@ body{
   box-sizing: border-box;
 }
 
-body {
-  background-color:  rgb(64,84,92)
-}
 
 .slider-wrapper {
   justify-content: center;
   position: relative;
-  background-color:  rgb(64,84,92);
+  background-color:  var(--color3);
   max-width: 80%;
   width: 95%;
   margin-left: 10%;
@@ -150,11 +148,11 @@ body {
   margin-left: 150px;
   display: flex;
   align-items: center;
-  background-color:  rgb(64,84,92);
+  background-color:  var(--color3);
 }
 
 .slider-scrollbar .scrollbar-track {
-  background: rgb(64,84,92);
+  background: var(--color3);
   width: 30%;
   height: 2px;
   display: flex;
@@ -164,7 +162,7 @@ body {
 }
 
 .slider-scrollbar:hover .scrollbar-track {
-  height: 4px;
+  height: 5px;
 }
 
 .slider-scrollbar .scrollbar-thumb {
@@ -172,7 +170,7 @@ body {
   background: #000;
   top: 0;
   bottom: 0;
-  width: 50%;
+  width: 70%;
   height: 100%;
   cursor: grab;
   border-radius: inherit;
@@ -180,7 +178,7 @@ body {
 
 .slider-scrollbar .scrollbar-thumb:active {
   cursor: grabbing;
-  height: 8px;
+  height: 10px;
   top: -2px;
 }
 
@@ -194,13 +192,14 @@ body {
 }
 
 #announcement, #facilities{
-  color: white;
+  color: var(--black);
   text-align: center;
   margin-top: 50px;
 }
 
 .news1, .faci1 {
   border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .news1:hover, .faci1:hover{
@@ -213,11 +212,13 @@ body {
     display: flex;
     gap: 40px; /* Adjust the gap between columns */
     padding: 50px;
-    color: white;
+    color: var(--color1);
+    
 }
 
 .principal {
   border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .principal:hover {
@@ -234,7 +235,7 @@ body {
   border-radius: 40px;
   background-color: #24262b;
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -420,14 +421,14 @@ header nav ul li a:hover {
     justify-content: center;
     display: grid;
     padding: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   #background{
     font-family: 'Bebas Neue';
     padding-bottom: 50px;
     text-align: center;
-    background-color:  rgb(64,84,92);
+    background-color:  var(--color3);
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -499,20 +500,20 @@ header nav ul li a:hover {
     border-radius: 40px;
     background-color: #24262b;
     text-align: center;
-    color: white;
+    color: black;
   }
   
   .announcement, .facilities {
     display: grid;
     padding: 50px;
-    color: white;
+    color: black;
   }
 
   #background{
     font-family: 'Bebas Neue';
     padding-bottom: 50px;
     text-align: center;
-    background-color:  rgb(64,84,92);
+    background-color:  var(--color3);
     display: flex;
     justify-content: center;
     align-items: center;    

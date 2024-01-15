@@ -113,7 +113,7 @@ header nav ul li a:hover {
 
 .organizational {
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 20px;
   margin-bottom: 20px;
           
@@ -142,7 +142,7 @@ header nav ul li a:hover {
 }
 
 .container2 h1.fellow,.container3 h1.officer,.chart2 .committee,.mission h1 {
-  color: white;
+  color: black;
   margin-bottom: 20px;
   transition: color 0.5s ease;
 }
@@ -170,7 +170,7 @@ header nav ul li a:hover {
 }
 
 .container3 h1.officer {
-  color: white;
+  color: black;
   margin-bottom: 20px;
 }
 
@@ -309,7 +309,7 @@ header nav ul li a:hover {
 body{
 line-height: 1.5;
 font-family: 'Poppins', sans-serif;
-  background-color:rgb(64,84,92);
+  background-color:var(--color3);
 grid-template-columns: 
 "header",
 "logo3",
