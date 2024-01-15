@@ -144,7 +144,31 @@
               <div class="container__inner container__inner_hidden">
                 <h2 class="content__subtitle">What type of room would you want?</h2>
                 <form>
+                  <div class="radio-with-Icon">
+                    <p class="radioOption-Item">
+                      <input type="radio" name="BannerTypes" id="BannerType1" value="true" class="ng-valid ng-dirty ng-touched ng-empty" aria-invalid="false" >
+                      <label for="BannerType1">
+                        <i class="fa-solid fa-bed"></i><br>
+                        Quad <br> Room
+                      </label>
+                    </p>
                   
+                    <p class="radioOption-Item">
+                      <input type="radio" name="BannerTypes" id="BannerType2" value="false" class="ng-valid ng-dirty ng-touched ng-empty" aria-invalid="false" >
+                      <label for="BannerType2">
+                        <i class="fa-solid fa-bed"></i><br>
+                        Twin <br> Room
+                      </label>
+                    </p>
+
+                    <p class="radioOption-Item">
+                      <input type="radio" name="BannerTypes" id="BannerType3" value="false" class="ng-valid ng-dirty ng-touched ng-empty" aria-invalid="false" >
+                      <label for="BannerType3">
+                        <i class="fa-solid fa-bed"></i><br>
+                        Single <br> Room
+                      </label>
+                    </p>
+                  </div>
                 </form>
                 <button class="next-btn">Next</button>
                 <button class="prev-btn">Previous</button>
@@ -152,7 +176,11 @@
               <div class="container__inner container__inner_hidden">
                 <h2 class="content__subtitle">Fill out the details below</h2>
                 <form>
-                  
+                  <label for="checkIn">Check-in Date:</label>
+                  <input type="date" id="checkIn" name="checkIn">
+            
+                  <label for="checkOut">Check-out Date:</label>
+                  <input type="date" id="checkOut" name="checkOut">
                 </form>
                 <button class="prev-btn">Previous</button>
                 <button class="submit-btn">Submit</button>

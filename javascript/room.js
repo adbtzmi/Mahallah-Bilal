@@ -88,6 +88,8 @@ function showTab(tabIndex) {
   currentTab = tabIndex;
 }
 
+
+
 // Event listener for next button
 document.querySelector(".next-btn").addEventListener("click", () => {
   if (currentTab < tabItem.length - 1) {
